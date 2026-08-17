@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #2E2E2E;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #007FFF;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#hero {
+    background-color: #87CEEB;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #007FFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
