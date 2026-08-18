@@ -95,7 +95,6 @@ h1, h2 {
     border-radius: 10px;
 }
 
-
 /* ------------------------------
    FOOTER
 ------------------------------ */
@@ -106,4 +105,45 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+/* ------------------------------
+   RESPONSIVENESS — TABLET
+------------------------------ */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #hero {
+        padding: 60px 20px;
+    }
+    .hero-img {
+        width: 140px;
+    }
+}
+
+/* ------------------------------
+   RESPONSIVENESS — MOBILE
+------------------------------ */
+@media (max-width: 480px) {
+    #hero h2 {
+        font-size: 1.6rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+    .hero-img {
+        width: 120px;
+    }
+    .section {
+        padding: 40px 15px;
+    }
 }

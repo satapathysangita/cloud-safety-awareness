@@ -55,3 +55,52 @@ The site is served over HTTPS automatically by GitHub Pages.
 - Perform testing (DevTools, Lighthouse, HTML/CSS validators).
 - Finalise README with testing results and screenshots.
 
+
+## Wireframes
+
+### Desktop Layout
+need to insert image
+### Mobile Layout
+need to insert image
+
+## Testing
+
+### HTML Validation
+The W3C HTML Validator was used to test index.html.  
+The page passed without errors.  
+(Screenshot included below)
+assets/images/HTML validated.png
+
+
+### CSS Validation
+The W3C CSS Validator was used to test style.css.  
+The stylesheet passed without errors.  
+(Screenshot included below)
+![alt text](<assets/images/css validated.png>)
+
+### Lighthouse Report
+A Lighthouse audit was run in Chrome DevTools for mobile.  
+Scores were acceptable for Performance, Accessibility, Best Practices, and SEO.  
+(Screenshot included below)
+![alt text](<Lighthouse run.png>)
+
+### Manual Testing
+**Navigation**
+- All navbar links were clicked and confirmed to scroll to the correct sections.
+- No broken links found.
+
+**Responsiveness**
+- Website tested on desktop, tablet, and mobile screen sizes.
+- Text remains readable on all devices.
+- Images resize correctly without distortion.
+- No horizontal scrolling on mobile.
+
+**Content**
+- All images load correctly.
+- All text is visible and properly spaced.
+- No overlapping elements.
+
+### Bugs
+No major bugs found during testing.  
+Minor spacing adjustments were made during development.
+
