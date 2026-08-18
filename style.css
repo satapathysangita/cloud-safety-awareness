@@ -55,10 +55,15 @@ h1, h2 {
 ------------------------------ */
 
 #hero {
+    height: 80vh; /*big hero section */
     background: linear-gradient(#87CEEB, #007FFF);
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 #hero h2 {
@@ -68,6 +73,8 @@ h1, h2 {
 
 #hero p {
     font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
 }
 
 /* ------------------------------
@@ -75,7 +82,7 @@ h1, h2 {
 ------------------------------ */
 
 .section {
-    padding: 60px 20px;
+    padding: 10px 10px;
     max-width: 900px;
     margin: auto;
 }
@@ -90,9 +97,11 @@ h1, h2 {
     line-height: 1.8;
 }
 .hero-img {
-    width: 180px;
+    width: 360px; /* Adjust the size of the hero image */
+    max-width: 100%;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* ------------------------------
@@ -141,9 +150,9 @@ footer {
         font-size: 1rem;
     }
     .hero-img {
-        width: 120px;
+        width: 150px;
     }
     .section {
-        padding: 40px 15px;
+        padding: 30px 15px;
     }
 }

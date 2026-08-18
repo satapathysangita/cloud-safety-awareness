@@ -13,6 +13,10 @@ Cloud Safety Awareness is a one-page educational website designed to help everyd
 - As a user, I want to recognise unsafe websites so that I can avoid digital risks.
 
 ---
+## Wireframes
+The wireframe below shows the website layout.
+![alt text](wireframe-desktop-mobile.png)
+
 ## Deployment
 
 The project was deployed using GitHub Pages.
@@ -69,8 +73,7 @@ need to insert image
 The W3C HTML Validator was used to test index.html.  
 The page passed without errors.  
 (Screenshot included below)
-assets/images/HTML validated.png
-
+![alt text](<HTML validated.png>)
 
 ### CSS Validation
 The W3C CSS Validator was used to test style.css.  
